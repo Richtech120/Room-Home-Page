@@ -1,0 +1,135 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+header .top-left{
+    width: 60%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+header .top-left img{
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    z-index: -1;
+    object-fit: fill;
+}
+header .top-left ul .bac-img {
+    transition: opacity 0.5s ease-in;
+}
+
+header .top-left nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 50px;
+}
+header .top-left nav ul .logo{
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+header .top-left nav ul li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+   
+}
+header .top-right{
+    width: 40%;
+    height: auto;
+    background: white;
+    padding: 60px 70px;
+}
+header .top-right h1{
+    font-weight: 1000;
+    max-width: 90%;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+header .top-right p{
+    max-width: 90%;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: rgb(164, 158, 158);
+}
+header .top-right a{
+    text-decoration: none;
+}
+header .top-right .button{
+    font-size: 12px;
+    color: black;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+header .top-right .arrow{
+    color: black;
+}
+header .top-left .box{
+    background: black;
+    width: 7%;
+    height: 7vh;
+    position: absolute;
+    right: 33%;
+    top: 53%;
+}
+header .top-left .box .control_prev{
+    color: white;
+    font-size: 40px;
+    margin-left: 6%;
+    
+}
+header .top-left .box .control_prev:hover{
+    background: rgb(109, 106, 106);
+}
+header .top-left .box .control_next{
+    color: white;
+    font-size: 40px;
+    margin-left: 52%;
+}
+header .top-left .box .control_next:hover{
+    background: rgb(109, 106, 106);
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background: grey;
+}
+footer .part1{
+    width: 30%;
+    background: url(/images/image-about-dark.jpg);
+}
+footer .part2{
+   width: 40%; 
+   background: white;
+   padding: 40px 40px;
+}
+footer .part2 h3{
+    font-weight: 1000;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+}
+footer .part2 p{
+    max-width: 100%;
+    line-height: 20px;
+    color: rgb(164, 158, 158);
+}
+footer .part3{
+    width: 30%;
+    background: url(/images/image-about-light.jpg);
+}
